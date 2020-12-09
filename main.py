@@ -16,5 +16,5 @@ def send_message(message):
 	return bot.send_message(chat_id=CHAT_ID, text=message)
 
 
-send_message(f"Helo World!")
+send_message("Helo World!")
 
